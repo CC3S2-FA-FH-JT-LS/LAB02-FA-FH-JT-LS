@@ -10,16 +10,19 @@ body {
 
 /* Header/logo Title */
 .header {
-    height: 100px;
-    background: url("fondo.png");
+    padding: 10px;
+    height: 200px;
+    background: url("images/fondo.jpg");
     text-align: center;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px #2f2f2f;
     font-size: px;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
     text-align: left;
+    margin-top: 16px;
     margin-left: 40px;
     font-size: 40px;
 }
@@ -66,7 +69,7 @@ body {
 /* Column container */
 .row {
     padding: 0% 20% 0% 20%;
-
+    background-color: rgb(199, 146, 67);
     display: flex;
     flex-wrap: wrap;
 }
@@ -94,5 +97,6 @@ body {
     padding: 20px;
 }
 img {
-    height: 200px;
+    max-width: 100%;
+    height: auto;
 }
