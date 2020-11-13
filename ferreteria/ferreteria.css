@@ -10,16 +10,19 @@ body {
 
 /* Header/logo Title */
 .header {
+  padding: 10px;
   height: 100px;
-  background: url("fondo.png");
+  background: url("images/fondo.jpg");
   text-align: center;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px #2f2f2f;
   font-size: px;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
   text-align: left;
+  margin-top: 16px;
   margin-left: 40px;
   font-size: 40px;
 }
@@ -95,7 +98,8 @@ body {
   padding: 20px;
 }
 img{
-  height: 200px;
+  max-width: 100%;
+  height: auto;
 }
 
 
